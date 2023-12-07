@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+}
+
+
+.header{
+    background-color: rgb(47, 45, 45);
+    padding-bottom: 20px;
+
+}
+
+.jologo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+h1{
+    color: #D7C378;
+    display: flex;
+    justify-content: center;
+    font-family: "new-astro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 50px;
+
+}
+
+.joparapic{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border-radius: 20px;
+    margin-top: 30px
+
+}
+
+
+.resume{
+    font-size: 25px;
+    font-family: "forma-djr-micro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 50px;
+    padding: 50px;
+
+}
+
+.main-info{
+    font-family: "forma-djr-micro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+
+}
+#dates{
+    font-family: "new-astro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 45px;
+}
+
+
+#res{
+    font-family: "forma-djr-micro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+
+}
+
+
+
+
+
+
+
+
+img.jo2012, img.jo2016, img.jo2021, img.jo2004, img.jo1988, img.jo1960, img.jo1972 {
+    width: 30%;
+    border-radius: 20px;
+}
+
+
+#date-res23{
+    border-radius: 15px;
+    background: #f8f7f7;
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#res{
+    font-size: 16px;
+}
+.containP{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 40px;
+}
+
+@media screen and (max-width:1160px){
+    #date-res23{
+        flex-direction: column;
+        align-items: center; 
+    }
+}
+
